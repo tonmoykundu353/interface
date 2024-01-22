@@ -42,3 +42,4 @@ public:
         return nullptr;
     }
 };
+ShapeFactory* ShapeFactory::instance = nullptr;
